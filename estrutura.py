@@ -1,1 +1,17 @@
-#aqui será adicionado o código e tudo mais para o trabalho, mas por enquanto é só um teste 
+
+
+
+def soma(a, b):
+    return a + b
+
+def subtracao(a, b):
+    return a - b
+
+def multiplicacao(a, b):
+    return a * b
+
+def divisao(a, b):
+    if b != 0:
+        return a / b
+    else:
+        return "Erro: Divisão por zero não é permitida!"
